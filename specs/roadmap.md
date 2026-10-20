@@ -6,7 +6,7 @@ High-level implementation order, in very small phases. Each phase should be ship
 
 1. Create an npm workspaces monorepo with `api`, `web`, and `packages/shared`.
 2. Scaffold the Express + TypeScript API (strict mode) with a `/health` route.
-3. Scaffold the Next.js + TypeScript frontend (strict mode) with Tailwind CSS.
+3. Scaffold the Next.js + TypeScript frontend (strict mode) with Tailwind CSS and a responsive, mobile-first base.
 4. Add ESLint, Prettier, and a type-check script.
 5. Add Vitest with a smoke test for `/health` and one for the home page.
 6. Add a GitHub Actions workflow running lint, type-check, and tests.
@@ -16,7 +16,7 @@ High-level implementation order, in very small phases. Each phase should be ship
 1. Build the home page with the clinic's name and tagline.
 2. Add a basic layout (header, footer) and navigation placeholders.
 3. Add a short "what we treat" section.
-4. Check the layout in current Chrome, Firefox, Safari, and Edge.
+4. Check the layout at phone, tablet, and desktop widths in current Chrome, Firefox, Safari, and Edge.
 
 ## Phase 3: Data layer
 
@@ -63,7 +63,7 @@ High-level implementation order, in very small phases. Each phase should be ship
 
 ## Phase 9: Polish and launch
 
-1. Visual design pass for marketing.
+1. Visual design pass for marketing, including a responsive review of every page at phone, tablet, and desktop widths.
 2. Accessibility pass.
 3. Add Playwright end-to-end tests for the core booking flow.
 4. Switch production to PostgreSQL.

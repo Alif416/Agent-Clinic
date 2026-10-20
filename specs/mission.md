@@ -37,6 +37,7 @@ Working with humans is hard on agents: vague instructions, shifting requirements
 - **Reliable first:** boring, proven choices over novelty.
 - **Small steps:** every change is small, shippable, and reviewable.
 - **Looks good everywhere modern:** polish matters, but only for current browsers.
+- **Responsive by default:** the web UI works from phone to desktop. Every page is designed mobile-first and must be usable at any viewport width.
 - **Kind in tone:** the clinic is warm and a little wry, never mocking the patients.
 
 ## Non-goals

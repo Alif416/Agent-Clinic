@@ -28,6 +28,7 @@ Next.js is used as the React framework for the frontend only; the backend is Exp
 | UI library    | React                    | Popular, component-based UI.                            |
 | Framework     | Next.js (App Router)     | Routing, server rendering, and a solid React toolchain. |
 | Styling       | Tailwind CSS             | Fast to build an attractive, consistent UI.             |
+| Responsive    | Mobile-first Tailwind    | Base styles target phones; `sm:`/`md:`/`lg:` scale up.  |
 | UI components | shadcn/ui                | Accessible components we own.                           |
 
 ## Shared
@@ -56,6 +57,7 @@ Vitest tests are how we validate that work is done. Each phase's `validation.md`
 
 - Package manager: npm.
 - Browser support: the latest versions of Chrome, Firefox, Safari, and Edge.
+- Responsive design: the web UI is mobile-first and usable from 320px wide up, with no horizontal scrolling. Pages declare the viewport, use relative units and Tailwind breakpoints, and keep touch targets comfortably large.
 - No feature merges without passing lint, type-check, and tests.
 
 ## Open questions

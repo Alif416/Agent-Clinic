@@ -17,6 +17,12 @@ Run from the repo root after `npm install`:
 - [ ] `api` imports from `packages/shared` and `web` can too.
 - [ ] `.github/workflows/ci.yml` runs the same lint, type-check, and test commands as above.
 
+## Responsive design
+
+- [ ] The root layout declares `width=device-width` and `initialScale=1`, verified by a Vitest test.
+- [ ] The home page is usable at 320px wide with no horizontal scrolling.
+- [ ] Text and spacing scale up at the `sm:` and `md:` breakpoints.
+
 ## Scope guard
 
 - [ ] No database, models, feature endpoints, or feature pages were added.

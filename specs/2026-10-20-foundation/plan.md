@@ -19,8 +19,9 @@ Each task group is small, leaves the repo working, and can be its own commit.
 
 1. Scaffold `web` with Next.js (App Router), React, and TypeScript.
 2. Add Tailwind CSS.
-3. Add a minimal home page showing "AgentClinic".
-4. Add `NEXT_PUBLIC_API_URL` handling with the default of `http://localhost:4000`.
+3. Add a minimal home page showing "AgentClinic", styled mobile-first with Tailwind breakpoints.
+4. Declare the viewport in the root layout.
+5. Add `NEXT_PUBLIC_API_URL` handling with the default of `http://localhost:4000`.
 
 ## 4. Tooling
 

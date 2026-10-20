@@ -35,6 +35,7 @@ Out of scope (later phases):
 - **Tests:** Vitest in every workspace; Supertest for the API, Testing Library for components.
 - **Frontend to API:** the web app reads the API base URL from an environment variable (`NEXT_PUBLIC_API_URL`), defaulting to `http://localhost:4000`.
 - **Browsers:** latest Chrome, Firefox, Safari, and Edge only.
+- **Responsive design:** the web UI is mobile-first. The root layout declares the viewport (`width=device-width`, `initialScale=1`), and the home page uses Tailwind's base-then-breakpoint styles so it works from 320px wide with no horizontal scrolling.
 
 ## Context
 
