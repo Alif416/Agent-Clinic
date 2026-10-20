@@ -17,7 +17,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "typecheck": "npm run typecheck --workspaces --if-present",
-    "test": "npm test --workspaces --if-present"
+    "test": "npm test --workspaces --if-present",
+    "validate": "npm run lint && npm run typecheck && npm test"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

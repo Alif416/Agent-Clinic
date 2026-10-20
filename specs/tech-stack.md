@@ -44,6 +44,14 @@ Next.js is used as the React framework for the frontend only; the backend is Exp
 | Linting and formatting     | ESLint and Prettier                                                    |
 | CI                         | GitHub Actions: lint, type-check, test on every push                   |
 
+## Validation
+
+Vitest tests are how we validate that work is done. Each phase's `validation.md` is satisfied by passing Vitest tests plus lint and type-check, not by manual checks alone.
+
+- Every feature ships with Vitest tests covering its behavior, including error cases.
+- `npm test` runs the Vitest suites in every workspace.
+- `npm run validate` runs lint, type-check, and tests in one step. It is the gate for merging and what CI runs.
+
 ## Conventions
 
 - Package manager: npm.
